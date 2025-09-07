@@ -56,7 +56,7 @@ class Game:
         self.frame = 0
 
         # self.scene = LevelSelect(None, 'assets/levels', self.images)
-        self.scene = Menu('assets/menus/start.tmx', None, None, self.images)
+        self.scene = Level(None, 'assets/levels/MAIN/W1/00.tmx', self.images)
 
     def compute_scaled_buffer_dest(self) -> pygame.Rect:
         target_aspect_ratio = RENDER_WIDTH / RENDER_HEIGHT
@@ -83,6 +83,7 @@ class Game:
             return False
 
         # Draw the scene.
+        
         self.render_context.clear()
         self.scene.draw(self.render_context, self.images)
         self.renderer.render(self.render_context)
@@ -90,8 +91,10 @@ class Game:
         return True
 
     def main(self, args: Args):
+        
         start_time = datetime.datetime.now()
         game_running = True
+        
         while game_running:
             for event in pygame.event.get():
                 match event.type:
@@ -115,6 +118,10 @@ class Game:
                 self.clock.tick(FRAME_RATE)
         end_time = datetime.datetime.now()
         duration = end_time - start_time
+        
+        print("------------------------------------")
+        print(duration)
+        print("------------------------------------")
         fps = self.frame / duration.total_seconds()
         if args.speed_test:
             print(f"{fps} fps, {self.frame} frames in {duration.total_seconds()}s")

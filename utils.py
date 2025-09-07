@@ -108,11 +108,12 @@ def try_move_to_slope_bounds(
         target_y = int(target.y + slope * x_offset + left_y)
 
         if False:
-            print(f'center_x = {actor_center_x}')
-            print(f'x_offset = {x_offset}')
-            print(f'slope = {slope}')
-            print(f'target_y = {target_y}')
-            print(f'actor_bottom = {actor.bottom}')
+            pass
+            ###print(f'center_x = {actor_center_x}')
+            ###print(f'x_offset = {x_offset}')
+            ###print(f'slope = {slope}')
+            ###print(f'target_y = {target_y}')
+            ###print(f'actor_bottom = {actor.bottom}')
 
     if target_y < actor.bottom:
         return target_y - actor.bottom

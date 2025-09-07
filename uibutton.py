@@ -62,6 +62,7 @@ class UiButton:
                 self.state = ButtonState.NORMAL
         elif selected and inputs.ok_down:
             self.state = ButtonState.GAMEPAD_CLICK
+            
         elif mouse_inside and inputs.mouse_down:
             self.state = ButtonState.MOUSE_CLICK
         elif selected or mouse_inside:

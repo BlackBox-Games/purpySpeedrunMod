@@ -196,6 +196,7 @@ class BinaryInput(Enum):
     RESTART = 13
     MOUSE_PRESS = 14
     MOUSE_DOWN = 15
+    LEVELSELK = 16
 
 
 class InputSnapshot:
@@ -214,6 +215,7 @@ class InputSnapshot:
     mouse_x: int
     mouse_y: int
     mouse_down: bool
+    levelselk: bool
 
     def __init__(self, encoded=0):
         self.ok = (encoded & (1 << 0)) != 0
@@ -231,6 +233,8 @@ class InputSnapshot:
         self.mouse_down = (encoded & (1 << 12)) != 0
         self.mouse_x = (encoded >> 32) & 0x0000FFFF
         self.mouse_y = (encoded >> 48) & 0x0000FFFF
+        self.levelselk = (encoded & (1 << 15)) != 0
+
 
 
 class RecorderEntry(typing.NamedTuple):
@@ -348,6 +352,10 @@ class InputManager:
                 MouseButtonInput(1),
                 KeyInput(pygame.K_p),
             ]),
+               BinaryInput.LEVELSELK: AnyOfInput([
+                TriggerInput(KeyInput(pygame.K_r)),
+                TriggerInput(JoystickButtonInput(3)),
+            ]),
         }
 
         self.recorder = InputRecorder()
@@ -385,6 +393,7 @@ class InputManager:
         snapshot.mouse_x = self.mouse_position[0]
         snapshot.mouse_y = self.mouse_position[1]
         snapshot.mouse_down = self.binary_hooks[BinaryInput.MOUSE_DOWN].is_on()
+        snapshot.levelselk = self.binary_hooks[BinaryInput.LEVELSELK].is_on()
         return snapshot
 
     def handle_keyboard_event(self, event: pygame.event.Event):
@@ -397,7 +406,7 @@ class InputManager:
     def handle_joystick_event(self, event: pygame.event.Event):
         match event.type:
             case pygame.JOYBUTTONDOWN:
-                print(f'button {event.button}')
+                #print(f'button {event.button}')
                 self.state.set_joystick_button_down(event.button)
             case pygame.JOYBUTTONUP:
                 self.state.set_joystick_button_up(event.button)
@@ -421,16 +430,16 @@ class InputManager:
         match event.type:
             case pygame.MOUSEMOTION:
                 pos = self.scale_mouse_pos(event.pos)
-                # print(f'mouse motion {pos}')
+                # #print(f'mouse motion {pos}')
                 self.state.mouse_position = pos
             case pygame.MOUSEBUTTONDOWN:
                 pos = self.scale_mouse_pos(event.pos)
-                print(f'mouse button {event.button} down {pos}')
+                #print(f'mouse button {event.button} down {pos}')
                 self.state.mouse_position = pos
                 self.state.set_mouse_button_down(event.button)
             case pygame.MOUSEBUTTONUP:
                 pos = self.scale_mouse_pos(event.pos)
-                print(f'mouse button {event.button} up {pos}')
+                #print(f'mouse button {event.button} up {pos}')
                 self.state.mouse_position = pos
                 self.state.set_mouse_button_up(event.button)
 

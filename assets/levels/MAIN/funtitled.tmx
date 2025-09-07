@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="180" height="20" tilewidth="8" tileheight="8" infinite="0" backgroundcolor="#301dff" nextlayerid="4" nextobjectid="264">
+ <tileset firstgid="1" source="../../pastel.tsx"/>
+ <layer id="3" name="Tile Layer 1" width="180" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+210,210,210,0,0,0,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+210,210,210,0,0,0,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+210,210,210,0,0,0,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210,210
+</data>
+ </layer>
+ <objectgroup id="2">
+  <object id="37" gid="209" x="1424" y="152" width="8" height="8"/>
+  <object id="38" gid="209" x="1424" y="152" width="8" height="8"/>
+  <object id="39" gid="209" x="1416" y="152" width="8" height="8"/>
+  <object id="40" gid="209" x="1432" y="152" width="8" height="8"/>
+  <object id="41" gid="193" x="1432" y="104" width="8" height="8"/>
+  <object id="42" gid="193" x="1424" y="104" width="8" height="8"/>
+  <object id="43" gid="193" x="1424" y="64" width="8" height="8"/>
+  <object id="44" gid="193" x="1432" y="64" width="8" height="8"/>
+  <object id="45" gid="193" x="1424" y="32" width="8" height="8"/>
+  <object id="46" gid="193" x="1432" y="32" width="8" height="8"/>
+  <object id="47" gid="241" x="8" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/01.tmx"/>
+   </properties>
+  </object>
+  <object id="48" gid="241" x="48" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="49" gid="241" x="88" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="50" gid="241" x="128" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="51" gid="241" x="168" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="52" gid="241" x="208" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="53" gid="241" x="248" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="54" gid="241" x="288" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="55" gid="241" x="328" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="56" gid="241" x="368" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="57" gid="241" x="408" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="58" gid="241" x="448" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="59" gid="241" x="488" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="60" gid="241" x="528" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="61" gid="241" x="568" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="62" gid="241" x="608" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="63" gid="241" x="648" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="64" gid="241" x="688" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="65" gid="241" x="728" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="66" gid="241" x="768" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="68" gid="241" x="808" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="70" gid="241" x="848" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="71" gid="241" x="888" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="72" gid="241" x="928" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="73" gid="241" x="968" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="74" gid="241" x="1008" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="75" gid="241" x="1048" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="76" gid="241" x="1088" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="77" gid="241" x="1128" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="78" gid="241" x="1168" y="128" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="192" gid="241" x="8" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="193" gid="241" x="48" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="194" gid="241" x="88" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="195" gid="241" x="128" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="196" gid="241" x="168" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="197" gid="241" x="208" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="198" gid="241" x="248" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="199" gid="241" x="288" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="200" gid="241" x="328" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="201" gid="241" x="368" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="202" gid="241" x="408" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="203" gid="241" x="448" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="204" gid="241" x="488" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="205" gid="241" x="528" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="206" gid="241" x="568" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="207" gid="241" x="608" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="208" gid="241" x="648" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="209" gid="241" x="688" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="210" gid="241" x="728" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="211" gid="241" x="768" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="212" gid="241" x="808" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="213" gid="241" x="848" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="214" gid="241" x="888" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="215" gid="241" x="928" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="216" gid="241" x="968" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="217" gid="241" x="1008" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="218" gid="241" x="1048" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="219" gid="241" x="1088" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="220" gid="241" x="1128" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="221" gid="241" x="1168" y="88" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+   </properties>
+  </object>
+  <object id="222" gid="241" x="8" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="223" gid="241" x="48" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="224" gid="241" x="88" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="225" gid="241" x="128" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="226" gid="241" x="168" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="227" gid="241" x="208" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="228" gid="241" x="248" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="229" gid="241" x="288" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="230" gid="241" x="328" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="231" gid="241" x="368" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="232" gid="241" x="408" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="233" gid="241" x="448" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="234" gid="241" x="488" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="235" gid="241" x="528" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="236" gid="241" x="568" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="237" gid="241" x="608" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="238" gid="241" x="648" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="239" gid="241" x="688" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="240" gid="241" x="728" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="241" gid="241" x="768" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="242" gid="241" x="808" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="243" gid="241" x="848" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="244" gid="241" x="888" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="245" gid="241" x="928" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="246" gid="241" x="968" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="247" gid="241" x="1008" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="248" gid="241" x="1048" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="249" gid="241" x="1088" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="250" gid="241" x="1128" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="251" gid="241" x="1168" y="48" width="8" height="8">
+   <properties>
+    <property name="destination" value="C:/Users/seank/Documents/GitHub/purpy/assets/levels/MAIN/W1/00.tmx"/>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="252" gid="193" x="40" y="120" width="8" height="8"/>
+  <object id="253" gid="193" x="32" y="120" width="8" height="8"/>
+  <object id="254" gid="193" x="24" y="120" width="8" height="8"/>
+  <object id="255" gid="193" x="24" y="80" width="8" height="8"/>
+  <object id="256" gid="193" x="40" y="80" width="8" height="8"/>
+  <object id="257" gid="193" x="40" y="80" width="8" height="8"/>
+  <object id="258" gid="193" x="32" y="40" width="8" height="8">
+   <properties>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="259" gid="193" x="32" y="40" width="8" height="8">
+   <properties>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="260" gid="193" x="24" y="40" width="8" height="8">
+   <properties>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="262" gid="193" x="40" y="40" width="8" height="8">
+   <properties>
+    <property name="stars_needed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="263" gid="193" x="32" y="80" width="8" height="8"/>
+ </objectgroup>
+</map>

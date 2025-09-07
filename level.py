@@ -567,7 +567,8 @@ class Level:
             return menu.Menu('assets/menus/pause.tmx', self, self.map_path, images)
 
         self.map.update_animations()
-
+        if inputs.levelselk:
+            return Level(None,'assets/levels/MAIN/funtitled.tmx', images)
         for platform in self.platforms:
             platform.update(self.switches, sounds)
 
@@ -631,7 +632,7 @@ class Level:
             transition = f'{start_state} x ({attrib_list}) -> {self.player.state}'
             if transition != self.transition:
                 self.transition = transition
-                print(transition)
+                #print(transition)
 
         if self.player.is_dead:
             return menu.Menu('assets/menus/dead.tmx', self, self.map_path, images)

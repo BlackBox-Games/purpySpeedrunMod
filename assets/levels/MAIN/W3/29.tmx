@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="22" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="50">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="22" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="52">
  <tileset firstgid="1" source="../../../pastel.tsx"/>
  <layer id="1" name="Tile Layer 1" width="40" height="22">
   <data encoding="csv">
@@ -66,16 +66,17 @@
   <object id="36" gid="193" x="96" y="64" width="8" height="8"/>
   <object id="37" gid="193" x="80" y="64" width="8" height="8"/>
   <object id="38" gid="193" x="88" y="64" width="8" height="8"/>
-  <object id="48" gid="241" x="80" y="32" width="8" height="8">
-   <properties>
-    <property name="stars_needed" type="int" value="0"/>
-   </properties>
-  </object>
   <object id="49" gid="194" x="232" y="160" width="8" height="8">
    <properties>
     <property name="direction" value="W"/>
     <property name="distance" type="int" value="4"/>
     <property name="speed" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="51" gid="241" x="80" y="32" width="8" height="8">
+   <properties>
+    <property name="destination" type="file" value="World3boss.tmx"/>
+    <property name="door" type="bool" value="true"/>
    </properties>
   </object>
  </objectgroup>
